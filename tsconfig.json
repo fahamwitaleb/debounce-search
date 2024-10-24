@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",               // Allows modern JavaScript features
+    "module": "commonjs",
+    "lib": ["ES2015", "DOM"],         // Enables ES2015 features and browser APIs
+    "strict": true,
+    "outDir": "./src",                // Output JavaScript in the "src" folder
+    "esModuleInterop": true,          // Helps with compatibility with commonjs
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*.ts"],          // Include all TypeScript files in the "src" folder
+  "exclude": ["node_modules"]          // Only exclude the node_modules folder
+}

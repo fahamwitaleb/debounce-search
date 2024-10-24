@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+  margin: 0;
+  background-color: #776698;
+  margin-top: 16%;
+  color: white;
+}
+
+.container {
+  text-align: center; 
+}
+
+.title {
+  margin-bottom: 20px; 
+}
+
+
+  
