@@ -1,0 +1,40 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+  margin: 0;
+  background-color: #776698;
+  margin-top: 16%;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 460px;
+  border-radius: 8px;
+  height: 24px;
+  border: 1px solid #ccc;
+}
+
+.container {
+  text-align: center; 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+button{
+  margin-left: 4px;
+  border-radius: 6px;
+  border: none;
+}
